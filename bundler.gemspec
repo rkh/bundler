@@ -5,7 +5,7 @@ $:.unshift lib unless $:.include?(lib)
 require 'bundler/version'
 
 Gem::Specification.new do |s|
-  s.name        = "bundler"
+  s.name        = "rkh-bundler"
   s.version     = Bundler::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["André Arko", "Terence Lee", "Carl Lerche", "Yehuda Katz"]
